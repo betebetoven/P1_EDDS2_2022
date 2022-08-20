@@ -22,7 +22,10 @@ void lista(Puesto *p)
     {
         
         lista(p->siguiente);
-    }  
+    }
+    
+    
+    
 }
 };
 
