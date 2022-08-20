@@ -1,0 +1,3 @@
+la notacion es exponencial debido a la recursividad
+seria O(n)= 2^n
+ya que por cada iteracion se divide en dos procesos recursivos, cumplira con el orden de la potencia de 2
