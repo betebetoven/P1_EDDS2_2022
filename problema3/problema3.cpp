@@ -5,6 +5,10 @@ class Matriz {
 public:
 //* constructor con los pares límites
 Matriz(int n[], int m[]);
+Matriz(int n[], int m[])
+{
+
+}
 virtual ~Matriz(); //* destructor
 /** se ponen y obtienen valores */
 int &operator[](int i[]) ;
