@@ -12,6 +12,8 @@ return recursiva (n/2) + recursiva (n/2) ;
 }
 void norecursiva(double x)
 {
+    cout<<"FUNCION NO RECURSIVA"<<endl;
+
     int cont = 0;
     for (double i = 0; i < x/sqrt(x); i++)
     {
@@ -33,6 +35,7 @@ void norecursiva(double x)
 }
 int main()
 {
+    cout<<"FUNCION  RECURSIVA"<<endl;
     for (int i = 1; i < 21; i++)
     {
         int p = recursiva(i);
